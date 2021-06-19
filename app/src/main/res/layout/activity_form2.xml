@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Inscription"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/fstTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:text="Nom et Prénom"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/txtNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="Email"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/thirdTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="Téléphone"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnValider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:backgroundTint="#F4BC6D"
+        android:layout_marginTop="30dp"
+        android:text="Valider" />
+
+</LinearLayout>
